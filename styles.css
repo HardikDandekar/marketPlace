@@ -1,0 +1,338 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+
+
+/* Navigation Bar */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: #222;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+nav h1 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #4caf50;
+}
+
+nav button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+    background-color: #388e3c;
+}
+
+/* Page 1 */
+.page1 {
+    background-color: #333;
+    padding: 100px 30px;
+    color: #fff;
+}
+
+.page1 .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page1 .content .left {
+    width: 50%;
+}
+
+.page1 .content .left h1 {
+    font-size: 4rem;
+}
+
+.page1 .content .left p {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.page1 .content .left button {
+    margin-top: 30px;
+    padding: 12px 30px;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.page1 .content .left button:hover {
+    background-color: #388e3c;
+}
+
+.page1 .content .right img {
+    max-width: 80%;
+}
+
+/* Page 2 */
+.page2 {
+    padding: 50px 30px;
+    text-align: center;
+}
+
+.page2 h1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.product-slider {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product-slider .card {
+    width: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-slider .card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Page 3 */
+.page3 {
+    display: flex;
+    padding: 50px 30px;
+    justify-content: space-between;
+    background-color: #fff;
+    margin-top: 30px;
+}
+
+.page3 .content .left {
+    width: 40%;
+}
+
+.page3 .content .left h2 {
+    font-size: 50px;
+    width: 800px;
+    margin-top: 20px;
+}
+
+.page3 .content .left img{
+    width: 400px;
+    
+}
+
+.page3 .content .left p{
+    font-size: 25px;
+}
+.page3 .content .left h3 {
+    font-size: 30px;
+    color: #4caf50;
+    margin-top: 15px;
+}
+
+.page3 .content .right h1{
+    font-size: 40px;
+}
+.page3 .content .right p{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.page3 .content .right button{
+    width: 150px;
+    height: 5vh;
+    background-color: 
+    #4caf50;
+   border-radius: 6px;
+   border: none;
+   margin-top: 3px;
+   font-size: 15px;
+}
+
+
+.page3 .content .rate i {
+    color: #ffca28;
+}
+
+/* Page 4 */
+.page4 {
+    padding: 50px 30px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.page4 h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.testimonial {
+    display: inline-block;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: center;
+}
+
+.testimonial .img-box {
+    margin-bottom: 15px;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.testimonial h2 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.testimonial p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #666;
+}
+
+.testimonial button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.testimonial button:hover {
+    background-color: #388e3c;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 30px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    width: 23%;
+}
+
+.footer-section h4 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #ccc;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #4caf50;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.legal {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9rem;
+}
+
+.legal p {
+    margin-bottom: 10px;
+}
+
+.legal a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.legal a:hover {
+    color: #4caf50;
+}
